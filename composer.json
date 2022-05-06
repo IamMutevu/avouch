@@ -1,0 +1,35 @@
+{
+    "name": "iammutevu/avouch",
+    "description": "A simple database backup tool in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {   
+            "role": "Author",
+            "name": "iammutevu",
+            "email": "ianmutevu96@gmail.com",
+            "homepage": "https://www.mutevu.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IamMutevu\\Avouch\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IamMutevu\\Avouch\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
