@@ -1,6 +1,6 @@
 <?php
 
-namespace Avouch;
+namespace iammutevu\Avouch;
 
 class Database{
     public static function connect(){
