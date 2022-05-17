@@ -1,0 +1,10 @@
+{
+    "servername" : "localhost",
+    "database" : "bkbcpurg_finscocrm",
+    "username" : "bkbcpurg_crmboss",
+    "password" : "22FAConsult$$",
+    "tables": [
+        "table",
+        "table2"
+    ]
+}
