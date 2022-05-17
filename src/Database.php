@@ -4,7 +4,7 @@ namespace iammutevu\Avouch;
 
 class Database{
     public static function connect(){
-        $data = file_get_contents('../configure.json');
+        $data = file_get_contents('../config/configure.json');
         $data  = json_decode($data);
 
         $servername = $data->servername;
