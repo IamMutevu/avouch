@@ -25,7 +25,7 @@
         "php": "^7.0"
     },
     "require-dev": {},
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true,
